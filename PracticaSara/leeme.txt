@@ -1,0 +1,36 @@
+# PracticaCompilacion
+Práctica final C: compilador de un lenguaje usando Flex y Bison
+
+Requisitos básicos realizados por:
+Grupo 4: 
+- David Bernal
+- Sara Martín
+- Xuban Barberena
+
+Para compilar el programa bastará con escribir el comando make en la consola, y se ejecutará sobre las pruebas realizadas
+El MakeFile se encuentra dentro de la carpeta "fuente".
+
+Contenido del directorio fuente:
+Programa principal y make: 
+  - main.cp
+  - Makefile
+Ficheros flex y bison:
+  - tokens.l
+  - parser.y
+ Funciones y objetos auxiliares:
+ - Exp.hpp
+ - Codigo.hpp
+ - Codigo.cpp
+ 
+ Por otro lado, existen los siguientes ficheros de prueba:
+  - PruebaBuena1.dat
+  - PruebaBuena2.dat
+  - PruebaBuena3.dat
+  - PruebaBuena4.dat
+  - PruebaBuena5.dat
+  - PruebaMala1.dat
+  - PruebaMala2.dat
+  - PruebaMala3.dat
+  - PruebaMala4.dat
+  - PruebaMala5.dat
+  - PruebaMala6.dat

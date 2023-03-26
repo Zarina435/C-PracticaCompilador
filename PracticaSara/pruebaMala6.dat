@@ -1,0 +1,25 @@
+def main ( ):
+'''error en la llamada a la funcion'''
+let a,b, c : integer; d,e: float in {
+
+	def sumar (x,y : integer; resul: & integer):
+      let aux, vueltas: integer in {	
+		
+        aux= y;  
+	   	resul = x;
+        while aux+resul> 2000: {
+            aux= aux - 2;
+            resul = resul + 1;
+            break if aux < 1000;
+        } else: {
+            aux = 0;
+            println(resul);
+        }
+    }
+sumar(a,b);   #El número de argumentos no es correcto.
+sumar(a,b);   #El número de argumentos no es correcto y los parametros son de tipos incorrectos.
+sumar(d,e,a); #Tipos incompatibles
+sumar(d,e); #Tipos incompatibles y argumentos diferentes
+restar(a,b,c); #Nombre de la función no existe.
+restar(d,b,c); #Nombre de la función no existe y argumentos de tipos diferentes.
+}

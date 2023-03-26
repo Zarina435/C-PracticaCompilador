@@ -1,0 +1,12 @@
+def main ():
+'''prueba de forever y break if'''
+let a,b : integer in {
+    a=0;
+    b=1;
+    forever : {
+        a=a+b;
+        b=b+1;
+        break if b==15;
+    }
+    println(a);
+}

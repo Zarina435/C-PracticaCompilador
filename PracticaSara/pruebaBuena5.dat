@@ -1,0 +1,9 @@
+def main ():
+'''Ejemplo división entre cero'''
+let a,b,c : integer in {
+    a=10;
+    b=5;
+    c=0;
+    a= b/c;
+    
+}

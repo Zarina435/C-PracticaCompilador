@@ -1,0 +1,16 @@
+def main ():
+'''For mal declarado, variable i sin definir, error de tipos, variable z sin definir'''
+let a,b,c : integer; d,e : float in {
+    a=10;
+    b=5;
+    c=2;
+    #Este for esta fatal
+    for (integer a=0; i<2; i=a+1){
+        #La expresión no es válida
+        if a+b or b*c: {
+            b=a-1;
+        }
+        #La variable z no está definida
+        c=c+z;
+    }
+}

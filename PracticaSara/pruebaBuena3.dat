@@ -1,0 +1,14 @@
+def main ():
+'''prueba de booleanos y de for'''
+let a,b,c : integer in {
+    if a<b or b<c : {
+        a=a-b;
+        b=b-c;
+    }
+    for (integer i=0; i<10; i=i+1){
+        a=a/c;
+        b=b+1;
+        break if b==5;
+    }
+    println(a);
+}

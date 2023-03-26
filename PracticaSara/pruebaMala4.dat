@@ -1,0 +1,13 @@
+def main ():
+'''Ejemplo continue fuera de bucle'''
+let a,b,c : integer in {
+    a=10;
+    b=5;
+    c=0;
+    continue;
+    for (integer i=0; i<2; i=a+1){
+        b=a-1;
+        c=c+1;
+    }
+    c=c*c*c;
+}
